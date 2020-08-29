@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>Registration Page</title>
+<style>
+a{
+color:blue;
+text-decoration:underline;
+}
+.intro{
+  padding-top: 50px;
+  padding-right: 150px;
+  padding-left: 1200px;
+}
+.extro{
+color:white;
+display:inline;
+text-decoration:none;
+}
+</style>
+</head>
+<body>
+<table >
+<tr>
+<td>
+<a href="https://www.iiit.ac.in/"><img src="iiitlogo.png" alt="iit logo" width=80 height=60/></a>
+</td>
+<td class=intro><a href="https://serc.iiit.ac.in/rdip">RDIP</a></td>
+</tr>
+</table>
+<fieldset style="background-color:black">
+<legend></legend>
+<a class=extro href="homepage.html">Home</a>
+<a style="margin-left:2.5em" class=extro href="registration.html">Registration Form</a>
+</fieldset>
+<form action="details.html" method="get">
+<table cellpadding="5px">
+<tr>
+<td><b><center>First name:</center></b></td>
+<td><input type="text" name="" required></td>
+</tr>
+<tr>
+<td><b><center>E-mail:</center></b></td>
+<td><input type="text" name="" required></td>
+</tr>
+<tr>
+<td><b><center>Phone No:</center></b></td>
+<td><input type="Phone" name="" required></td>
+</tr>
+<tr required>
+<td><b><center>Gender:</center></b></td>
+<td><input type="radio" id="male" name="gender" value="male" required>
+<label for="male">Male</label><input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label></td>
+</tr>
+<tr required>
+<td><b><center>Reason for RDIP:</center></b></td>
+<td><input type="checkbox" value="html" id="html" name="html" required><label for="html">HTML</label><input type="checkbox" value="css" id="css" name="html"><label for="css">CSS</label><input type="checkbox" value="js" id="js" name="html"><label for="js">Javascript</label></td>
+</tr>
+<tr>
+<td><b><center>College:</center></b></td>
+<td><input type="text" name="" required></td>
+</tr>
+<tr>
+<td><center><input type="checkbox" required><label for="html"></label></center></td>
+<td><b><center>I declare above details given by me are true.<center></b></td>
+</tr>
+<tr>
+<td><center><input type="submit" value=Submit></center></td>
+<td><input type="reset" value=Reset></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
